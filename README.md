@@ -1,6 +1,6 @@
-# leave_balance_service
+# leave-balance-service
 
-Http server with an endpoint to calculate PTO/leave balance at the end of the year and how much will be lost if none is taken.
+Http service with an endpoint to calculate PTO/leave balance at the end of the year and how much will be lost if none is taken.
 
 Dockerhub: [https://hub.docker.com/r/wdhowe/leave-balance-service](https://hub.docker.com/r/wdhowe/leave-balance-service)
 
