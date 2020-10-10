@@ -1,4 +1,4 @@
-(defproject leave_balance_service "0.2.0-SNAPSHOT"
+(defproject leave-balance-service "0.2.1"
   :description "HTTP service that calculates end of year leave/pto balance."
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.10.0"]

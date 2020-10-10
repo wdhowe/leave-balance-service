@@ -19,7 +19,7 @@
 (comment (println "Config is:" config))
 
 (def version "Project version."
-  (version/get-version "leave_balance_service" "leave_balance_service"))
+  (version/get-version "leave-balance-service" "leave-balance-service"))
 
 (comment (println "Version is:" version))
 

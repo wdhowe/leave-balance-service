@@ -68,7 +68,7 @@ Different ways to run the service.
   * With the built uberjar
 
     ```bash
-    java -jar target/uberjar/leave_balance_service-0.2.0-SNAPSHOT-standalone.jar
+    java -jar target/leave-balance-service-0.2.1-standalone.jar
     ```
 
 ### Run With Docker
