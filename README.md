@@ -1,5 +1,7 @@
 # leave-balance-service
 
+[![Build Status][gh-actions-badge]][gh-actions] [![Clojure version][clojure-v]](project.clj)
+
 Http service with an endpoint to calculate PTO/leave balance at the end of the year and how much will be lost if none is taken.
 
 Dockerhub: [https://hub.docker.com/r/wdhowe/leave-balance-service](https://hub.docker.com/r/wdhowe/leave-balance-service)
@@ -194,3 +196,11 @@ Public License, v. 2.0 are satisfied: GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or (at your
 option) any later version, with the GNU Classpath Exception which is available
 at `https://www.gnu.org/software/classpath/license.html`.
+
+----
+
+<!-- Named page links below: /-->
+
+[gh-actions-badge]: https://github.com/wdhowe/leave-balance-service/workflows/ci%2Fcd/badge.svg
+[gh-actions]: https://github.com/wdhowe/leave-balance-service/actions
+[clojure-v]: https://img.shields.io/badge/clojure-1.10.0-blue.svg
