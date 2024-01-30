@@ -13,7 +13,8 @@ jobs:
 
     strategy:
       matrix:
-        jdk_version: [8, 11, 14, 15, 16]
+        # JDK LTS: 8, 11, 17
+        jdk_version: [8, 11, 17]
         os: [ubuntu-latest]
 
     container:
@@ -21,13 +22,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Dependencies
-        run: lein deps
-      - name: Version
-        run: lein version
-      - name: Build
-        run: lein compile
+      - name: Info
+        run: |
+          lein version
+      - name: Package
+        run: |
+          lein deps
+          lein compile
+          lein uberjar
       - name: Tests
         run: lein test
-      - name: Package
-        run: lein uberjar
